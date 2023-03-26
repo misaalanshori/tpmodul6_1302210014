@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            SayaTubeVideo vidio = new SayaTubeVideo("Tutorial Design By Contract - Muhammad Isa Al Anshori");
+            vidio.IncreasePlayCount(420);
+            vidio.PrintVideoDetails();
         }
     }
 }
